@@ -12,11 +12,19 @@
       <div id="main-container">
         <h1>BlackJack</h1>
         <p id="message-el">Do you want to play a round?</p>
-        <p id="cards-el">Cards: </p>
-        <p id="sum-el">Sum: </p>
+        <div id="cards-wrapper">
+          <div class="cards-div" id="player-div">
+            <p id="cards-el">Cards: </p>
+            <p id="sum-el">Sum: </p>
+          </div>
+          <div class="cards-div" id="dealer-div">
+            <p id="dealer-cards-el">Dealer: </p>
+            <p id="dealer-sum-el">Sum: </p>
+          </div>
+        </div>
         <button onclick="startGame()">START GAME</button>
         <button onclick="newCard()">NEW CARD</button>
-        <p>Kevin: $450</p>
+        <p id="player-el"></p>
       </div>
     </div>
 

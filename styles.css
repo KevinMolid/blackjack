@@ -23,7 +23,7 @@ body {
   width: 800px;
   border: 1px solid white;
   border-radius: 15px;
-  background-color: rgb(14, 95, 37);
+  background-image: linear-gradient(to bottom right, rgb(14, 95, 37), rgb(9, 77, 54));
 }
 
 h1 {
@@ -42,6 +42,21 @@ p {
   font-weight: normal;
 }
 
+#cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.cards-div {
+  width: 300px;
+  margin: 0 5px;
+  padding: 10px;
+  border: 1px solid #0d2417;
+  background-color: rgb(11, 68, 36);
+  border-radius: 5px;
+}
+
+
 button {
   font-size: 20px;
   font-weight: bold;
@@ -51,7 +66,7 @@ button {
   background-color: rgb(223, 174, 15);
   border: none;
   border-radius: 5px;
-  margin: 2px;
+  margin: 10px 2px;
 }
 
 button:hover {
@@ -61,4 +76,8 @@ button:hover {
 
 button:active {
   background-color: rgb(223, 174, 15);
+}
+
+#player-el {
+  margin-bottom: 0;
 }
